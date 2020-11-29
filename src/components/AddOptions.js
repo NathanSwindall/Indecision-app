@@ -2,16 +2,12 @@ import React from 'react';
 
 
 class AddOptions extends React.Component {
-    constructor (props) {
-        super(props)
-        this.handleAddOptions = this.handleAddOptions.bind(this)
-        this.state = {
-            error: undefined
-        }
-
+    state = {
+        error: undefined
     }
+    
 
-    handleAddOptions(e) {
+    handleAddOptions = (e) => {
         e.preventDefault() //prevents the full page from refreshing
         
         let option = e.target.elements.option.value.trim()
