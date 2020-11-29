@@ -1,0 +1,7 @@
+babel-cli is for running babel from the command line
+babel-core is used for running babel in our app from webpack (very similar to babel-cli)
+babel-loader (teach webpack how to run babel)
+test: /\.js$/ This means that babel will be run only through files that have .js ending. that is a regular expression
+exclude in the config file tells the babel not to be used on certain files. So, we shouldn't use it on node_modules
+babelrc will allow us to use the presets that we used before (env, react). We need this so that we can use the special syntax. Later we will
+do this with CSS
