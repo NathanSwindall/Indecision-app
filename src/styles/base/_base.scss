@@ -1,0 +1,11 @@
+// rem
+html {
+    font-size: 62.5%; // This is so we can use rems easily and rems are more accesible
+}
+
+body {
+    background-color: $dark-blue;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: $m-size;
+}
+
