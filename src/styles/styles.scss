@@ -1,5 +1,10 @@
 @import './base/settings'; // you have to define this first because it has the variables
 @import './base/base';
+@import './components/add-option';
+@import './components/button';
 @import './components/container';
 @import './components/header';
+@import './components/modal.scss';
+@import './components/option';
+@import './components/widget';
 
